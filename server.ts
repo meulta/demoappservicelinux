@@ -4,7 +4,7 @@ import { Server, createServer } from 'http'
 export class MyServer {
 
     private server: Server;
-   // private expressApp: express.Application;
+    // private expressApp: express.Application;
 
     constructor() {
         this.server = createServer((req, res) => {
@@ -13,7 +13,6 @@ export class MyServer {
         });
 
         //this.expressApp = express();
-        //todo
     }
 
     public start() {
