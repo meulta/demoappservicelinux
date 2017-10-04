@@ -18,5 +18,9 @@
   "homepage": "https://github.com/meulta/demoappservicelinux#readme",
   "devDependencies": {
     "@types/node": "^8.0.31"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "xhr": "^2.4.0"
   }
 }

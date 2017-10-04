@@ -1,8 +1,4 @@
-import * as http from 'http'
+import { MyServer } from './server'
 
-var server = http.createServer(function(req, res) {
-  res.writeHead(200);
-  res.end('Salut tout les gens !');
-});
-
-server.listen(80);
+let server = new MyServer();
+server.start();
